@@ -9,7 +9,7 @@ const validationcomponent = (props) => {
 
     return (
         <div className="ValidationComponent">
-            {classification}
+            <p>{classification}</p>
         </div>        
     );
 };
