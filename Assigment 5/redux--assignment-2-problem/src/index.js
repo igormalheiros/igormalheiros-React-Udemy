@@ -5,12 +5,10 @@ import { Provider } from 'react-redux';
 import './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
-import counterReducer from './store/reducers/counter';
-import resultReducer from './store/reducers/result';
+import personReducer from './store/reducers/person';
 
 const rootReducer = combineReducers({
-    ctr: counterReducer,
-    res: resultReducer
+    prs: personReducer
 })
 
 const store = createStore(rootReducer);
